@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<h1 style="background-color: indianred;>"
+<!--THIS IS DISPLAYED WHEN MAANGER USER LOGS IN WITH INTERACTION BUTTONS-->
+Welcome MANAGER please select an interaction
+<br><br>
+<!--Button to view all employee details in a table-->
+    <form action="AllDetailsController" method="post">
+    <input type="submit" value="View Employee Information" /> <br>
+    </form>
+    <br><br>
+<!--Button to view all pending reimbursement request-->
+    <form action="ViewPendingController" method="post">
+    <input type="submit" value="View Pending Reimbursement Requests" /> <br>
+    </form>
+<br><br>
+<!--Button that takes you to full employee list with edit button function-->
+<form action="UpdateEmpController" method="post">
+    <input type="submit" value="Update Employee Details" /> <br>
+</form>
+<br><br>
+<!--Button that takes you to a Reimburesment form-->
+<form action="SubmitRequestController" method="post">
+     <a href = "submit-form-request.html"> Submit Form Request</a><br>
+</form>
+
+<br><br>
+<!--Button that takes you to view all resolved reimbursements-->
+<form action="ViewResolvedController" method="post">
+    <input type="submit" value="View Resolved Reimbursments" /> <br>
+</form>
+
+<br><br>
+<!--Button that takes you to view all resolved reimbursements-->
+<form action="LogOutController" method="post">
+    <input type="submit" value="LogOut"> <br>
+</form>
+
+
+
+</ul>
+</body>
+</html>

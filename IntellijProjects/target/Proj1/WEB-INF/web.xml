@@ -1,0 +1,72 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <servlet>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>com.web.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AllDetailsController</servlet-name>
+    <servlet-class>com.web.AllDetailsController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewPendingController</servlet-name>
+    <servlet-class>com.web.ViewPendingController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateEmpController</servlet-name>
+    <servlet-class>com.web.UpdateEmpController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SubmitRequestController</servlet-name>
+    <servlet-class>com.web.SubmitRequestController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewResolvedController</servlet-name>
+    <servlet-class>com.web.ViewResolvedController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogOutController</servlet-name>
+    <servlet-class>com.web.LogOutController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CancelController</servlet-name>
+    <servlet-class>com.web.CancelController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllDetailsController</servlet-name>
+    <url-pattern>/AllDetailsController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewPendingController</servlet-name>
+    <url-pattern>/ViewPendingController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateEmpController</servlet-name>
+    <url-pattern>/UpdateEmpController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitRequestController</servlet-name>
+    <url-pattern>/SubmitRequestController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewResolvedController</servlet-name>
+    <url-pattern>/ViewResolvedController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogOutController</servlet-name>
+    <url-pattern>/LogOutController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CancelController</servlet-name>
+    <url-pattern>/CancelController</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
