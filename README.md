@@ -19,7 +19,7 @@ To-do list:
 * styling
 
 ## Getting Started
-* 
+* gh repo clone EdwinMunoz416/EmployeeServices
 
 ## Contributors
 Edwin Munoz
