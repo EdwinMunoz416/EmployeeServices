@@ -26,6 +26,3 @@ Once installed run tomcat server on your local 8080 port to start the web applic
 
 ## Contributors
 Edwin Munoz
-
-## License 
-This project uses the following license: <>
