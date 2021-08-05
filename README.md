@@ -15,8 +15,9 @@ Login with only valid credentials
 Logout
 create users
 
-to-do list:
-seperate employee/manager services with credentials 
-
-#Contributors
+To-do list:
+* seperate employee/manager services with credentials 
+* styling
+* 
+## Contributors
 Edwin Munoz
